@@ -1,3 +1,4 @@
+
 def deposit():
     while True:
         amount = input("What would you like to deposit? $")
@@ -14,3 +15,6 @@ def deposit():
             print("Please enter a number.")
 
     return amount
+
+
+deposit()
